@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "NoticiaText";
+  font-weight: 700;
+  font-style: normal;
+  src: local(''),
+       url('../fonts/Noticia_Text/NoticiaText-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Noticia_Text/NoticiaText-Regular.ttf') format('woff'), /* Modern browsers */
+       url('../fonts/Noticia_Text/NoticiaText-Regular.ttf') format('woff2'); /* Modern browsers */
+}
+
+
+@font-face {
+  font-family: "NoticiaText";
+  font-weight: 300;
+  font-style: normal;
+  src: local(''),
+       url('../fonts/Noticia_Text/NoticiaText-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Noticia_Text/NoticiaText-Regular.ttf') format('woff'), /* Modern browsers */
+       url('../fonts/Noticia_Text/NoticiaText-Regular.ttf') format('woff2'); /* Modern browsers */
+}
+
+* {
+  padding: 1;
+  margin: 1;
+  box-sizing: border-box;
+}
+
+body {
+  font-family : "NoticiaText";
+  margin : 0px;
+}
+
+li { 
+  list-style : none;
+  display : inline-block;
+}
+
+ul li {
+  display : inline-block;
+  margin : 20px;
+}
+
+ul li:hover { cursor : pointer; }
+
+a {
+  text-decoration : none;
+  color : blue;
+}
+
+p {
+  text-indent: 5%;
+  margin : 2px;
+  color: red
+}
+
+.about { margin : 30px; }
+      
+.text1 {
+  margin : 5px;
+  width : 550px;
+  position : center;
+  left : 40px;
+  top : 50px;
+  color: red
+}
+
+
+:root {
+  --color-primary: green ;
+  --color-secondary: rgb(0, 251, 255);
+  --background: white;
+  --text: black;
+}
+
+h1 {
+  color: var(--color-primary);
+}
+
+
+
+
+
